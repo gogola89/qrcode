@@ -1,0 +1,39 @@
+/* rem and em DO NOT depend on html font-size in media queries, instead 1rem=1em=16px */
+
+/************************************/
+/* Below 1344px SMALLER DESKTOPS */
+/************************************/
+@media (max-width: 84em) {
+}
+
+/************************************/
+/* Below 1200px LANDSCAPE TABLETS */
+/************************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/************************************/
+/* Below 900px TABLETS */
+/************************************/
+@media (max-width: 58.75em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/************************************/
+/* Below 736px MEDIUM TABLETS */
+/************************************/
+
+@media (max-width: 46em) {
+}
+
+/************************************/
+/* Below 576px MOBILE DEVICES */
+/************************************/
+@media (max-width: 36em) {
+}

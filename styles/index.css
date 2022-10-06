@@ -1,0 +1,38 @@
+.container {
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  display: grid;
+  grid-template-rows: 90fr 10fr;
+}
+
+.qr {
+  align-self: center;
+  justify-self: center;
+}
+
+.qrbox {
+  width: 45%;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.8rem;
+  border-radius: 1.2rem;
+}
+
+.qr-image {
+  width: 100%;
+  border-radius: 1.2rem;
+}
+
+.qrbox-header {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 2rem;
+  color: hsl(218, 44%, 22%);
+}
+
+.qrbox-text {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: hsl(220, 15%, 55%);
+}
