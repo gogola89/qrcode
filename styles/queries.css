@@ -36,4 +36,7 @@
 /* Below 576px MOBILE DEVICES */
 /************************************/
 @media (max-width: 36em) {
+  .qrbox {
+    width: 70%;
+  }
 }
